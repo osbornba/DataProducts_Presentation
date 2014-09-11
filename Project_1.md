@@ -2,7 +2,7 @@ Data Products
 Course Project
 ========================================================
 author:BAO 
-date: Thu Sep 11 11:38:04 2014
+date: Thu Sep 11 12:45:36 2014
 
 Presentation Outline
 ========================================================
@@ -28,7 +28,10 @@ publish the presentation to make it publically available
 
 Shiny App
 ========================================================
-The app displays a histogram of Normally distributed data points with mean and standard deviation provided by the user. Example output:
+The app displays a histogram of Normally distributed data points with mean and standard deviation provided by the user. Example output for mu=0 and sigma=1:
+
+***
+
 
 ```r
 mu<-0; sigma<-1; x<-rnorm(1000, mu, sigma); hist(x, main='Normal')
