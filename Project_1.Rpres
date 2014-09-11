@@ -28,10 +28,9 @@ publish the presentation to make it publically available
 
 Shiny App
 ========================================================
-
 The app displays a histogram of Normally distributed data points with mean and standard deviation provided by the user. Example output:
 ```{r, echo=T}
-mu <- 0; sigma <- 1; x <- rnorm(1000, mu, sigma); hist(x, main='Normal', xlab='Data')
+mu<-0; sigma<-1; x<-rnorm(1000, mu, sigma); hist(x, main='Normal')
 ```
 
 Conclusion
